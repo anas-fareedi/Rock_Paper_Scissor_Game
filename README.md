@@ -101,14 +101,14 @@ Render, Hugging Face Spaces, or Heroku
 
 Once deployed, share your game link for others to play!
 
-🧑‍💻 Author
+### 🧑‍💻 Author
 
 Anas Fareedi
 B.Tech in AI & ML | Python Developer | ML & Data Enthusiast
 📫 LinkedIn
  • GitHub
 
-📜 License
+### 📜 License
 
 This project is open-source under the MIT License
 
