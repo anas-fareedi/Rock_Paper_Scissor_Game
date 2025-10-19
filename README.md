@@ -28,12 +28,13 @@ Play against the computer, track your score, and enjoy the smooth UI — all in 
 ---
 
 ## 📁 Project Structure
+```
 rock-paper-scissors/
 │
 ├── app.py # Main Streamlit app
 ├── requirements.txt # List of dependencies
 └── README.md # Project documentation
-
+```
 
 ---
 
@@ -46,17 +47,24 @@ Follow these steps to run the game locally:
 git clone https://github.com/<your-username>/rock-paper-scissors.git
 cd rock-paper-scissors
 
+# create vertual environment
+
 python -m venv venv
 venv\Scripts\activate      # for Windows
 # or
 source venv/bin/activate   # for macOS/Linux
 
+# install dependencies
+
 pip install -r requirements.txt
 
+# Run the web app
+
 streamlit run app.py
+```
 
 
-🕹️ How to Play
+### 🕹️ How to Play
 
 Choose your move from the dropdown — Rock, Paper, or Scissor.
 
@@ -66,7 +74,7 @@ See who wins each round — your score updates automatically.
 
 Click 🔄 Reset Game to start fresh anytime.
 
-🧠 Game Logic
+### 🧠 Game Logic
 
 Rock beats Scissor 🪨✌️
 
@@ -83,7 +91,7 @@ rock = -1, paper = 0, scissor = 1
 
 and checks (computer - user) difference to determine the result.
 
-🌐 Deployment
+### 🌐 Deployment
 
 You can easily deploy this game online using:
 
